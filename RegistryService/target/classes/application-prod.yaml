@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: registryService
+
+server:
+  port:
+    8761
+  wait-time-in-ms-when-sync-empty: 0
+  wait-time-in-ms: 500
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
